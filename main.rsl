@@ -1,0 +1,8 @@
+var x = 0
+
+fun loop()
+    print("loop ke-" + x)
+    var x = x + 1
+end
+
+repeat(4, loop())
